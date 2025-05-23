@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <img id="header-img" src="IMG/FT-capas/C2.png" alt="Imagem de fundo do cabeçalho">
+        <h1>Myriam Monteiro de Souza</h1>
+        <h2>Estudante de  Desenvolvimento de Sistemas | Comunicadora Visual</h2>
+        <div class="navigation">
+            <button class="nav-button" id="sobreBut">Sobre mim</button>
+            <button class="nav-button" id="projetosBut">Projetos</button>
+            <button class="nav-button" id="contatoBut">Contato</button>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <section id="sobre" class="section">
+            <div class="sobre-container">
+                <div class="sobre-img">
+                    <img src="IMG/Ilustra/IL1Transparente.png" alt="Ilustração sobre"/>
+                </div>
+                <div class="sobre-text">
+                    <h2>Sobre mim</h2>
+                    <p>" Eu sempre rodeei o mundo das artes, pois minha mãe trabalhava com artesanatos, costura e com desenho de moda. Sempre me inspirei na resistência e autenticidade que ela tinha para conseguir chegar a lugares potentes. Também me inspirava com meu pai que trabalhava com tecidos. Assim, formei muitas memórias afetivas os ajudando e com o tempo essas atividades foram se tornando meus hobbies. Uma curiosidade é que gosto muito de música brasileira e amo estar presente em rodas de coco, uma dança tradicional nordestina. "</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <p>Meus projetos nascem do desejo de unir design, tecnologia e propósito. Tenho como inspiração a diversidade cultural, a inclusão e a questões sociais, buscando sempre representar diferentes vivências e ampliar vozes através do processo criativo.
+            <br><br>    
+                Ao longo da minha trajetória, venho explorando diferentes linguagens visuais e tecnologias — da fotografia de produto ao design digital, passando por ilustrações autorais e experiências em UX/UI e programação. Este espaço reúne uma amostra do que já produzi: imagens que traduzem minha forma de ver o mundo e materiais desenvolvidos com intenção e cuidado. Cada peça reflete meu processo de aprendizado contínuo e o desejo de construir projetos que sejam ao mesmo tempo relevantes e acessíveis.
+            </p>
+            <div class="IL-projetos">
+                <h3>Ilustrações</h3>
+                <p>Minhas ilustrações nascem a partir de fotos, memórias e referências visuais. Gosto de observar gestos, compor elementos e criar imagens que misturam afeto e identidade.</p>
+                <div class="scroll-container">
+                    <div class="carrossel-IL">
+                        <img src="IMG/Ilustra/IL01.png" alt="Ilustração 1"/>
+                        <img src="IMG/Ilustra/IL02.png" alt="Ilustração 2"/>
+                        <img src="IMG/Ilustra/IL03.png" alt="Ilustração 3"/>
+                        <img src="IMG/Ilustra/IL04.png" alt="Ilustração 4"/>
+                    </div>
+                </div>
+            </div>
+            <div class="ST-projetos">
+                <h3>Fotografias de Produto (STILL)</h3>
+                <p>Fotografias still de produtos feitas em estúdio — um pouco do meu olhar técnico e criativo aplicado ao visual das marcas.</p>
+                <div class="scroll-container">
+                    <div class="carrossel-ST">
+                        <img src="IMG/fotografias Still/ST01.png" alt="Fotografia Still 1"/>
+                        <img src="IMG/fotografias Still/ST02.png" alt="Fotografia Still 2"/>
+                        <img src="IMG/fotografias Still/ST03.png" alt="Fotografia Still 3"/>
+                        <img src="IMG/fotografias Still/ST04.png" alt="Fotografia Still 4"/>
+                        <img src="IMG/fotografias Still/ST05.png" alt="Fotografia Still 5"/>
+                    </div>
+                </div>
+            </div>
+                <div class="FT-projetos">
+                    <h3>Fotografias Ambientadas</h3>
+                    <p>Fotografias ambientadas que combinam registro documental com atenção à composição e à estética visual.
+                    </p>
+                    <div class="scroll-container">
+                        <div class="carrosel-FT">
+                            <img src="IMG/fotografias ambientadas/FT01.png" alt="Fotografia ambientada 1"/>
+                            <img src="IMG/fotografias ambientadas/FT02.png" alt="Fotografia ambientada 2"/>
+                            <img src="IMG/fotografias ambientadas/FT03.png" alt="Fotografia ambientada 3"/>
+                            <img src="IMG/fotografias ambientadas/FT04.png" alt="Fotografia ambientada 4"/>
+                            <img src="IMG/fotografias ambientadas/FT05.png" alt="Fotografia ambientada 5"/>
+                            <img src="IMG/fotografias ambientadas/FT06.png" alt="Fotografia ambientada 6"/>
+                            <img src="IMG/fotografias ambientadas/FT07.png" alt="Fotografia ambientada 7"/>
+                            <img src="IMG/fotografias ambientadas/FT08.png" alt="Fotografia ambientada 8"/>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Se você está em busca de uma profissional com olhar apurado para o design e formação técnica em desenvolvimento de sistemas, será um prazer conversar. Tenho experiência com criação de designs digitais e UX/UI, sempre com atenção à acessibilidade, usabilidade e qualidade visual das soluções.</p>
+            <h3>Entre em contato comigo:</h3>
+            <!--contato-container - DIV caixinha que engloba o form geral com a ft e icones -->
+            <div class="contato-container">
+                <!--contato-container - DIV caixinha que engloba somente o formulário -->
+                <div class="contato-form">
+                    <form id="contatoForm">
+                        <!--form-linha - DIV caixinha que engloba o form nome -->
+                        <div class="form-linha">
+                            <label for="nome">Digite seu Nome:</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <!--form-linha - DIV caixinha que engloba o form e-mail -->
+                        <div class="form-linha">
+                            <label for="email">Digite seu E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <!-- form-linha - DIV caixinha que engloba o form mensagem -->
+                        <div class="form-linha">
+                            <label for="mensagem">Digite sua Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" id="botaoEnviar">Enviar</button>
+                        <div id="mensagemForm" class="ocultar"></div>
+                    </form>
+                </div>
+                <div class="contato-info">
+                    <div class="img-circular">
+                        <img src="IMG/FT-capas/eu-contato.png" alt="Imagem de contato"/>
+                    </div>
+                    <p>Acesse minhas redes sociais.</p>
+                    <div class="icones">
+                        <a href="https://www.linkedin.com/in/myriam-monteiro/" target="_blank">
+                            <img src="ASSETS/ICON LINKEDIN.png" alt="icone linkedin"/>
+                        </a>
+                        <a href="https://w.app/myriamms" target="_blank">
+                            <img src="ASSETS/ICON WHATS.png" alt="icone whatsapp"/>
+                        </a>
+                        <a href="mailto:myriam_job27@hotmail.com">
+                            <img src="ASSETS/ICON E-MAIL.png" alt="icone E-mail"/>
+                        </a>
+                        <a href="https://github.com/MyriamMonteiro" target="_blank">
+                            <img src="ASSETS/ICON GITHUB.png" alt="icone GitHub"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
